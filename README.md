@@ -11,7 +11,7 @@ A web app to extract, analyze, and score resumes using Natural Language Processi
 ## 🚀 How to Run
 
 ```bash
-git clone https://github.com/yourusername/resume-analyzer.git
+git clone https://github.com/DheerajReddyE/resume-analyzer.git
 cd resume-analyzer
 pip install -r requirements.txt
 python -m spacy download en_core_web_sm
