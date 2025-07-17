@@ -1,2 +1,18 @@
-# resume-analyzer
-AI-Powered Resume Analyzer is a web-based tool that extracts key information from resumes and intelligently matches them against job descriptions using Natural Language Processing (NLP). Built with Python and Streamlit, it provides recruiters and job seekers with insights into how well a resume aligns with a given role.
+# 🧠 AI-Powered Resume Analyzer
+
+A web app to extract, analyze, and score resumes using Natural Language Processing (NLP).
+
+## 🔍 Features
+- Upload a resume (PDF)
+- Extract text and identify key entities (skills, education, experience)
+- Compare against a job description
+- Get a matching score and missing keyword suggestions
+
+## 🚀 How to Run
+
+```bash
+git clone https://github.com/yourusername/resume-analyzer.git
+cd resume-analyzer
+pip install -r requirements.txt
+python -m spacy download en_core_web_sm
+streamlit run main.py
